@@ -1,0 +1,39 @@
+.navbar-brand {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.content-box {
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+#menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 20px;
+    line-height: 2;
+    padding: 0px;
+}
+
+body {
+    height: 2700px;
+}
+
+@media (max-width: 575px) {
+    .content-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
